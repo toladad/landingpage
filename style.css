@@ -1,0 +1,176 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  padding:0;
+  margin:0;
+
+}
+ul {
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+
+}
+.logo {
+    font-size:24px;
+    font-weight: 600;
+}
+
+.links {
+    display:flex;
+    gap:10px;
+}
+
+
+
+.top {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    font-size:18px;
+    display:flex;
+    flex-direction: column;
+    padding:0px 190px;
+}
+
+.hero {
+    font-size:48px;
+    font-weight: 900;
+
+}
+
+.hero, .logo{
+    color:#f9faf8;
+}
+
+.signup {
+    background-color: #3882f6;
+    font-size:17px;
+    font-weight: 600;
+    color:white;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border:none;
+}
+
+.l_hero {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: start;
+}
+.h_image {
+    flex:1;
+    background-color: grey;
+}
+.title {
+    display:flex;
+    gap:50px;
+    padding:100px 0px
+}
+
+.hsubtext {
+    margin-bottom:10px;
+}
+
+.action {
+    background-color: #3882f6;
+    margin:100px 200px;
+    padding:50px 100px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    gap:30px;
+}
+
+.action .signup {
+ 
+    border: 2px solid white;
+}
+
+.action .subtext {
+    color:#dddddd;
+}
+
+.action .boldtext {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.actiontext {
+    display:flex;
+    gap:3px;
+    flex-direction: column;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:50px;
+    padding-top:50px;
+    margin-bottom:50px;
+}
+
+.infotitle {
+    color : 1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.details {
+    display:flex;
+    gap:60px;
+    justify-content: space-between;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.image {
+    width:180px;
+    height: 180px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+.item {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    width:180px;
+}
+
+.quotecontainer {
+    background-color: #e5e7eb;
+    padding: 100px 500px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.quote {
+   
+    font-size: 36px ;
+    font-style: italic;
+    font-weight: 200;
+    color :black;
+    
+}
+
+.attribution {
+    align-self: end;
+}
+
